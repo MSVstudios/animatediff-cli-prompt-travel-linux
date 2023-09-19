@@ -1,3 +1,8 @@
+this is a fork of https://github.com/s9roll7/animatediff-cli-prompt-travel
+with minor changes to run on linux for fast installation:
+Change log:
+TODO
+
 # AnimateDiff prompt travel
 
 [AnimateDiff](https://github.com/guoyww/AnimateDiff) with prompt travel + [ControlNet](https://github.com/lllyasviel/ControlNet) + [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter)
