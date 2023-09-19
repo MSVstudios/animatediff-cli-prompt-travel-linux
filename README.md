@@ -3,6 +3,40 @@ with minor changes to run on linux for fast installation:
 Change log:
 TODO
 
+# Install in linux + conda
+```
+conda create -n animatediffCLIPT python=3.10
+conda activate animatediffCLI
+
+git clone https://github.com/MSVstudios/animatediff-cli-prompt-travel-linux.git
+
+cd animatediff-cli-prompt-travel
+
+python3.10 -m venv venv
+
+# instal PyTorch 2.0 cuda 11.8
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# update pip
+pip3 install --upgrade pip
+
+# install requirment
+pip3 install -e .
+
+pip3 install xformers
+
+# optional 
+
+pip3 install -e .[stylize]
+
+
+- # if you get the error :
+- # UserWarning: The module 'mediapipe' is not installed. The package will have limited functionality. Please install it using the command: pip install 'mediapipe'
+- pip3 install 'mediapipe'
+
+
+```
+
 # AnimateDiff prompt travel
 
 [AnimateDiff](https://github.com/guoyww/AnimateDiff) with prompt travel + [ControlNet](https://github.com/lllyasviel/ControlNet) + [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter)
