@@ -1,7 +1,8 @@
 this is a fork of https://github.com/s9roll7/animatediff-cli-prompt-travel
 with minor changes to run on linux for fast installation:
 Change log:
-TODO
+-added mediapipe package in install_requires in setup.cfg
+-added install instructions for Linux
 
 # Install in linux + conda
 ```
