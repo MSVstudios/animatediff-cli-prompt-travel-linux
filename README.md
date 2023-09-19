@@ -4,6 +4,7 @@ Change log:
 -added mediapipe package in install_requires in setup.cfg
 -added install instructions for Linux
 
+
 # Install in linux + conda
 ```
 conda create -n animatediffCLIPT python=3.10
