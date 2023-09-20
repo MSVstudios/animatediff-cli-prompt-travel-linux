@@ -8,13 +8,15 @@ Change log:
 # Install in linux + conda
 ```
 conda create -n animatediffCLIPT python=3.10
-conda activate animatediffCLI
+conda activate animatediffCLIPT
 
 git clone https://github.com/MSVstudios/animatediff-cli-prompt-travel-linux.git
 
-cd animatediff-cli-prompt-travel
+cd animatediff-cli-prompt-travel-linux
 
 python3.10 -m venv venv
+
+sorce /venv/bin/activate
 
 # instal PyTorch 2.0 cuda 11.8
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
@@ -31,7 +33,7 @@ pip3 install xformers
 
 pip3 install -e .[stylize]
 
-
+- this must be corrected:
 - # if you get the error :
 - # UserWarning: The module 'mediapipe' is not installed. The package will have limited functionality. Please install it using the command: pip install 'mediapipe'
 - pip3 install 'mediapipe'
