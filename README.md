@@ -16,7 +16,7 @@ cd animatediff-cli-prompt-travel-linux
 
 python3.10 -m venv venv
 
-sorce /venv/bin/activate
+source /venv/bin/activate
 
 # instal PyTorch 2.0 cuda 11.8
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
